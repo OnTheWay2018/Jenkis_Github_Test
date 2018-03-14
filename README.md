@@ -13,3 +13,5 @@
 ## new pr
 
 ## after install pull request builder plugin
+
+## remove pr builder
