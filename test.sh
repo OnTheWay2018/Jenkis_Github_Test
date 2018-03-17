@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# add some comment
 status="FAIL"
 
 if [ "$status" = "FAIL" ];then
