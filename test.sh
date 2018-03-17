@@ -1,7 +1,6 @@
 #!/bin/bash
 
-
-status="OK"
+status="FAIL"
 
 if [ "$status" = "FAIL" ];then
         echo "FAILED..."
