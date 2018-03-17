@@ -1,11 +1,13 @@
-# coding: utf-8
+#!/bin/bash
 
-# jenkins run shell script test
 
-status="FAIL"
+status="OK"
 
-if status == "OK":
-    print("success!")
-else:
-    raise Exception("Test Failed")
+if [ "$status" = "FAIL" ];then
+        echo "FAILED..."
+        exit 1
+else
+        echo "SUCCESS..."
+        exit 0
+fi
 
