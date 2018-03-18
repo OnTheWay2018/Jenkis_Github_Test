@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # add some comment
+# test jira
+
 status="FAIL"
 
 if [ "$status" = "FAIL" ];then
